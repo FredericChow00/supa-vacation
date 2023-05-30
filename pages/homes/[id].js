@@ -5,9 +5,6 @@ import { PrismaClient } from '@prisma/client';
 // Instantiate PrismaClient
 const prisma = new PrismaClient();
 
-import Image from 'next/image';
-import Layout from '@/components/Layout';
-
 const ListedHome = (home = null) => {
   return (
     <Layout>
